@@ -23,8 +23,9 @@ body {
 
 .box {
   color: var(--color-grayish-blue);
-  margin: 150px 50px;
-  padding: 0;
+  margin: 200px 75px;
+  padding: 0px;
+  box-sizing: content-box;
   box-shadow: 10px 20px 10px rgba(211, 211, 211, 0.3);
 }
 
@@ -82,8 +83,9 @@ p {
 }
 
 @media only screen and (max-width: 375px) {
-  .container {
-    display: none;
+  .box {
+    margin: 0px;
+    padding: 0px;
   }
 
   .main-container {
